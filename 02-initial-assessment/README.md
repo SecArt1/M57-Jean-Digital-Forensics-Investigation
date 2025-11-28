@@ -3,7 +3,7 @@
 ## Overview
 This phase covers the initial examination of Jean's laptop disk image to understand the system configuration, installed software, user accounts, and preliminary artifact identification.
 
-**Phase Lead:** [Team Member Name]  
+**Phase Lead:** Abdullah Hegazi (Timeline Analyst)  
 **Start Date:** [Date]  
 **Completion Date:** [Date]
 
@@ -11,21 +11,21 @@ This phase covers the initial examination of Jean's laptop disk image to underst
 
 ## Autopsy Case Creation
 
-**Performed by:** [Team Member Name]  
+**Performed by:** Abdullah Hegazi  
 **Date:** [Date]  
 **Tool:** Autopsy [Version]
 
 ### Case Details
 
 **Case Name:** M57-Jean-Investigation  
-**Case Number:** M57-JEAN-2024  
-**Examiner:** [Team Member Names]  
+**Case Number:** M57-CF-001  
+**Examiner:** Adham Ahmed, Ahmed Hani, Abdullah Hegazi, Mohamed El-Awady, Hannen Abu Bakr  
 **Case Directory:** [Full path]
 
 ### Data Source Configuration
 
 **Data Source Type:** Disk Image  
-**Image File:** nps-2008-jean.E01  
+**Image File:** jeanm57.E01  
 **Image Format:** EnCase Expert Witness Format (E01)  
 **Processing Status:** ☐ Complete ☐ In Progress ☐ Failed
 

@@ -4,7 +4,7 @@
 
 This phase encompasses the preparation of the comprehensive final investigation report suitable for academic submission and professional presentation.
 
-**Report Authors:** [All Team Members]  
+**Report Authors:** Adham Ahmed, Ahmed Hani, Abdullah Hegazi, Mohamed El-Awady, Hannen Abu Bakr  
 **Report Date:** [Date]  
 **Version:** 1.0
 
@@ -27,15 +27,15 @@ The final report consists of:
 
 | Section | Author | Status | Review Date | Approved |
 |---------|--------|--------|-------------|----------|
-| Executive Summary | | ☐ Draft ☐ Final | | ☐ |
-| Introduction | | ☐ Draft ☐ Final | | ☐ |
-| Methodology | | ☐ Draft ☐ Final | | ☐ |
-| Evidence Analysis | | ☐ Draft ☐ Final | | ☐ |
-| Timeline Findings | | ☐ Draft ☐ Final | | ☐ |
-| Technical Findings | | ☐ Draft ☐ Final | | ☐ |
-| Conclusions | | ☐ Draft ☐ Final | | ☐ |
-| Recommendations | | ☐ Draft ☐ Final | | ☐ |
-| Appendices | | ☐ Draft ☐ Final | | ☐ |
+| Executive Summary | Adham Ahmed | ☐ Draft ☐ Final | | ☐ |
+| Introduction | Adham Ahmed | ☐ Draft ☐ Final | | ☐ |
+| Methodology | Ahmed Hani | ☐ Draft ☐ Final | | ☐ |
+| Evidence Analysis | Abdullah Hegazi | ☐ Draft ☐ Final | | ☐ |
+| Timeline Findings | Mohamed El-Awady | ☐ Draft ☐ Final | | ☐ |
+| Technical Findings | Hannen Abu Bakr | ☐ Draft ☐ Final | | ☐ |
+| Conclusions | Adham Ahmed | ☐ Draft ☐ Final | | ☐ |
+| Recommendations | All Team | ☐ Draft ☐ Final | | ☐ |
+| Appendices | Ahmed Hani | ☐ Draft ☐ Final | | ☐ |
 
 ---
 
@@ -44,19 +44,19 @@ The final report consists of:
 ### Review Rounds
 
 **Round 1: Peer Review**
-- **Reviewer:** [Team Member 1]
+- **Reviewer:** Abdullah Hegazi
 - **Date:** [Date]
 - **Comments:** [Path to comments document]
 - **Status:** ☐ Complete
 
 **Round 2: Technical Review**
-- **Reviewer:** [Team Member 2]
+- **Reviewer:** Mohamed El-Awady
 - **Date:** [Date]
 - **Comments:** [Path to comments document]
 - **Status:** ☐ Complete
 
 **Round 3: Final Review**
-- **Reviewer:** [Lead Investigator]
+- **Reviewer:** Adham Ahmed (Lead Investigator)
 - **Date:** [Date]
 - **Comments:** [Path to comments document]
 - **Status:** ☐ Complete

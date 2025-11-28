@@ -1,6 +1,6 @@
 # Timeline Analysis
 
-**Analyst:** [Team Member Name]  
+**Analyst:** Mohamed El-Awady (Timeline Analyst)  
 **Date:** [Date]  
 **Tools Used:** log2timeline/Plaso, Timeline Explorer, Autopsy
 
@@ -20,7 +20,7 @@ Create a comprehensive timeline of all system and user activities to identify th
 
 **Command:**
 ```bash
-log2timeline.py --storage-file m57-jean-timeline.plaso nps-2008-jean.E01
+log2timeline.py --storage-file m57-jean-timeline.plaso jeanm57.E01
 ```
 
 **Execution Details:**

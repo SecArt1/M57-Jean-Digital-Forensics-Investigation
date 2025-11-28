@@ -3,7 +3,7 @@
 ## Overview
 This phase involves comprehensive forensic analysis of Jean's laptop to identify how the confidential data was exfiltrated and determine Jean's involvement or victimization.
 
-**Phase Lead:** [Team Member Name]  
+**Phase Lead:** Adham Ahmed (Lead Investigator)  
 **Start Date:** [Date]  
 **Completion Date:** [Date]
 
@@ -30,30 +30,33 @@ This phase is divided into specialized analysis modules:
 
 ### Primary Objectives
 
-1. **Locate the confidential spreadsheet**
+1. **Locate the confidential spreadsheet (m57plan.xlsx)**
    - Find all instances (original, copies, deleted)
    - Identify creation, modification, and access times
    - Determine file lineage and versions
+   - Verify hash: MD5 e23a4eb7f2562f53e88c9dca8b26a153
 
 2. **Identify exfiltration method**
-   - Email attachments
-   - Web uploads
+   - Email attachments (especially to tuckgeorge@gmail.com - suspected phishing)
+   - Web uploads to competitor's technical support forum
    - USB/external storage
    - Cloud storage
    - Network file transfer (FTP, SMB, etc.)
    - Other methods
 
-3. **Determine user intent**
-   - Deliberate action vs. compromise
-   - Evidence of deception or cover-up
-   - Communication with competitors
-   - Financial motivation indicators
+3. **Determine user intent and resolve conflicting statements**
+   - Jean's claim: Alison requested the spreadsheet via email
+   - Alison's claim: Never asked for or received the spreadsheet
+   - Evidence of phishing attack vs. deliberate action
+   - Communication with competitors or external parties
+   - Evidence of deception or cover-up attempts
 
 4. **Establish timeline**
-   - When was spreadsheet created/acquired
-   - When was it accessed
-   - When was it exfiltrated
-   - Related events before and after
+   - When did Jean create m57plan.xlsx
+   - When was it accessed by Jean or others
+   - When was it exfiltrated to competitor's website
+   - Related events before and after (phishing emails, suspicious logins)
+   - Identify any involvement from "Bob" (mentioned in case notes)
 
 ---
 
@@ -63,16 +66,16 @@ This phase is divided into specialized analysis modules:
 
 | Analysis Module | Team Member | Start Date | Status | Completion Date |
 |-----------------|-------------|------------|--------|-----------------|
-| Timeline Analysis | | | ☐ | |
-| File System Forensics | | | ☐ | |
-| Registry Analysis | | | ☐ | |
-| Email Analysis | | | ☐ | |
-| Web Browser Forensics | | | ☐ | |
-| Network Artifacts | | | ☐ | |
-| USB Devices | | | ☐ | |
-| Deleted Files | | | ☐ | |
-| User Activity | | | ☐ | |
-| Malware/IOC | | | ☐ | |
+| Timeline Analysis | Mohamed El-Awady | | ☐ | |
+| File System Forensics | Abdullah Hegazi | | ☐ | |
+| Registry Analysis | Abdullah Hegazi | | ☐ | |
+| Email Analysis | Hannen Abu Bakr | | ☐ | |
+| Web Browser Forensics | Hannen Abu Bakr | | ☐ | |
+| Network Artifacts | Hannen Abu Bakr | | ☐ | |
+| USB Devices | Ahmed Hani | | ☐ | |
+| Deleted Files | Abdullah Hegazi | | ☐ | |
+| User Activity | Mohamed El-Awady | | ☐ | |
+| Malware/IOC | Adham Ahmed | | ☐ | |
 
 ### Cross-Module Coordination
 

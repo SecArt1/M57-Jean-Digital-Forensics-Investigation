@@ -2,25 +2,28 @@
 
 ## Case Information
 
-**Case ID:** M57-JEAN-2024  
-**Case Name:** M57-Jean Data Exfiltration Investigation  
+**Case ID:** M57-CF-001  
+**Case Name:** M57.biz Corporate Data Exfiltration  
 **Investigation Type:** Digital Forensics - Data Breach  
-**Agency/Organization:** [Your Institution/Team Name]
+**Agency/Organization:** Digital Forensics Training - Incident Response Team
 
 ---
 
 ## Evidence Item Information
 
-### Item E-001: nps-2008-jean.E01
+### Item E-001: jeanm57.E01
 
-**Evidence Tag Number:** E-001  
-**Description:** EnCase disk image file (Part 1 of 2) from Jean's laptop  
+**Evidence Tag Number:** 001  
+**Description:** EnCase disk image file (Part 1 of 2) from CFO Jean Jones's laptop  
 **Evidence Type:** Digital - Forensic Disk Image  
 **File Format:** Expert Witness Format (E01)  
 **Media Type:** Digital file  
 **Make/Model:** [From ewfinfo output]  
 **Serial Number:** [From ewfinfo output]  
 **Size:** [File size in bytes]
+**Seizure Date/Time:** 2008-07-20 04:28:00 EEST  
+**Seizure Location:** Jean's Home Office  
+**Seized By:** Adham Ahmed, Digital Forensic Investigator
 
 **Acquisition Information:**
 - **Original Source:** Digital Corpora (digitalcorpora.org)
@@ -36,14 +39,17 @@
 
 ---
 
-### Item E-002: nps-2008-jean.E02
+### Item E-002: jeanm57.E02
 
-**Evidence Tag Number:** E-002  
-**Description:** EnCase disk image file (Part 2 of 2) from Jean's laptop  
+**Evidence Tag Number:** 002  
+**Description:** EnCase disk image file (Part 2 of 2) from CFO Jean Jones's laptop  
 **Evidence Type:** Digital - Forensic Disk Image  
 **File Format:** Expert Witness Format (E01) - Continuation  
 **Media Type:** Digital file  
 **Size:** [File size in bytes]
+**Seizure Date/Time:** 2008-07-20 04:28:00 EEST  
+**Seizure Location:** Jean's Home Office  
+**Seized By:** Adham Ahmed, Digital Forensic Investigator
 
 **Acquisition Information:**
 - **Original Source:** Digital Corpora (digitalcorpora.org)

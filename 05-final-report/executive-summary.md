@@ -1,28 +1,35 @@
 # Executive Summary
 
-**Case ID:** M57-JEAN-2024  
+**Case ID:** M57-CF-001  
 **Investigation Type:** Digital Forensics - Data Exfiltration  
 **Date of Report:** [Date]  
-**Prepared by:** [Team Members]
+**Prepared by:** Adham Ahmed, Ahmed Hani, Abdullah Hegazi, Mohamed El-Awady, Hannen Abu Bakr
 
 ---
 
 ## Case Overview
 
-M57.Biz, a small startup company, experienced a data breach when a confidential spreadsheet containing employee names and salaries was discovered posted in the comments section of a competitor's website. The spreadsheet existed only on the laptop of Jean, a senior officer at M57.Biz. Jean claims she has no knowledge of how the data left her laptop and believes she was "hacked."
+M57.biz, a web start-up company, experienced a data breach when a confidential spreadsheet (m57plan.xlsx) containing employee salaries and Social Security Numbers was posted to a competitor's public technical support forum. The spreadsheet is confirmed to have originated from CFO Jean Jones's computer.
+
+**Key Personnel Statements:**
+- **Alison Smith (President):** Denies asking for or receiving the spreadsheet
+- **Jean Jones (CFO):** Claims Alison requested the spreadsheet and asked her to email it
 
 Our team was tasked with conducting a comprehensive digital forensic investigation of Jean's laptop to:
-1. Determine how the confidential data was exfiltrated
-2. Establish whether Jean was complicit or victimized
-3. Document all findings using forensically sound procedures
+1. Determine when Jean created the m57plan.xlsx spreadsheet
+2. Establish how the spreadsheet got from Jean's computer to the competitor's website
+3. Determine whether Jean was complicit or victimized by a phishing attack
+4. Identify any other personnel involved in the incident
 
 ---
 
 ## Investigation Scope
 
 **Evidence Analyzed:**
-- Jean's laptop disk image (EnCase E01 format)
+- CFO Jean Jones's laptop disk image (EnCase E01 format)
+- Files: jeanm57.E01 / jeanm57.E02
 - 2-volume forensic image totaling [XX] GB
+- Seized: 2008-07-20 04:28:00 EEST from Jean's Home Office
 - [Operating System] installation
 - User data from [date range]
 
@@ -32,11 +39,11 @@ Our team was tasked with conducting a comprehensive digital forensic investigati
 - Total Investigation Hours: [Hours]
 
 **Investigation Team:**
-- [Team Member 1] - [Role]
-- [Team Member 2] - [Role]
-- [Team Member 3] - [Role]
-- [Team Member 4] - [Role]
-- [Team Member 5] - [Role]
+- Adham Ahmed - Lead Investigator / IR Team Head
+- Ahmed Hani - Evidence Custodian
+- Abdullah Hegazi - Artifact Analyst
+- Mohamed El-Awady - Timeline Analyst
+- Hannen Abu Bakr - Communication Analyst
 
 ---
 

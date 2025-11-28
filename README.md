@@ -1,30 +1,32 @@
-#   
+# M57-Jean Digital Forensics Investigation
 ## Case Documentation for Graduation Project
 
-**Investigation Team:** [Team Member 1], [Team Member 2], [Team Member 3], [Team Member 4], [Team Member 5]  
+**Investigation Team:** Adham Ahmed, Ahmed Hani, Abdullah Hegazi, Mohamed El-Awady, Hannen Abu Bakr  
 **Course:** Digital Forensics Training  
 **Date Started:** [Date]  
 **Date Completed:** [Date]  
-**Case ID:** M57-JEAN-2024
+**Case ID:** M57-CF-001
 
 ---
 
 ## Executive Summary
 
 ### Case Overview
-This investigation examines the suspected data exfiltration incident at M57.Biz, a small startup company. A confidential spreadsheet containing employee names and salaries was discovered posted in the comments section of a competitor's website. The spreadsheet existed only on the laptop of Jean, a senior officer at M57.Biz.
+This investigation examines the suspected data exfiltration incident at M57.biz, a web start-up company. A confidential spreadsheet (m57plan.xlsx) containing employee salaries and Social Security Numbers was discovered posted to a competitor's public technical support forum. The spreadsheet is confirmed to have originated from CFO Jean's computer.
 
 ### Investigation Scope
-- **Subject:** Jean (Senior Officer, M57.Biz)
-- **Evidence:** Laptop disk image (EnCase E01 format)
+- **Subject:** Jean Jones (CFO, M57.biz)
+- **Evidence:** Laptop disk image (jeanm57.E01 / jeanm57.E02 - EnCase E01 format)
 - **Allegation:** Data exfiltration of confidential company documents
-- **Subject's Claim:** Denies involvement; claims to have been "hacked"
+- **Subject's Claim:** Claims President Alison Smith requested the spreadsheet and asked her to email it
+- **President's Statement:** Alison denies asking for or receiving the spreadsheet
 
 ### Key Questions
-1. How was the confidential data exfiltrated from Jean's laptop?
-2. Was Jean complicit in the data theft or was she compromised?
-3. What is the timeline of events leading to the data breach?
-4. Are there other indicators of compromise or data leakage?
+1. When did Jean create the m57plan.xlsx spreadsheet?
+2. How did the spreadsheet get from Jean's computer to the competitor's website?
+3. Was Jean complicit or was she victim of a phishing attack?
+4. Who else from the company is involved in this incident?
+5. What is the complete timeline of events leading to the data breach?
 
 ---
 
@@ -71,12 +73,12 @@ This case documentation is organized into the following phases:
 ## Team Member Roles
 
 | Team Member | Primary Responsibility | Secondary Responsibility |
-|-------------|------------------------|--------------------------|
-| [Name 1] | [Role] | [Role] |
-| [Name 2] | [Role] | [Role] |
-| [Name 3] | [Role] | [Role] |
-| [Name 4] | [Role] | [Role] |
-| [Name 5] | [Role] | [Role] |
+|-------------|------------------------|--------------------------||
+| Adham Ahmed | Lead Investigator / IR Team Head | Overall coordination, client liaison |
+| Ahmed Hani | Evidence Custodian | Chain of custody, evidence integrity |
+| Abdullah Hegazi | Artifact Analyst | File system, registry examination |
+| Mohamed El-Awady | Timeline Analyst | Event reconstruction, temporal analysis |
+| Hannen Abu Bakr | Communication Analyst | Email, browser, network analysis |
 
 ---
 
@@ -86,8 +88,13 @@ This case documentation is organized into the following phases:
 **URL:** https://digitalcorpora.org/corpora/scenarios/m57-jean/
 
 ### Primary Evidence
-- `nps-2008-jean.E01` - EnCase disk image (Part 1)
-- `nps-2008-jean.E02` - EnCase disk image (Part 2)
+- `jeanm57.E01` - EnCase disk image (Part 1)
+- `jeanm57.E02` - EnCase disk image (Part 2)
+
+### Exfiltrated File
+- **Filename:** m57plan.xlsx
+- **MD5:** e23a4eb7f2562f53e88c9dca8b26a153
+- **SHA-256:** 34456b5f714dc9d8dd23c742d54c3f5f582ecb042bc1c4d3042b88203863779f
 
 ### Supporting Materials
 - `M57-Jean.pdf` - Case scenario presentation
@@ -97,10 +104,11 @@ This case documentation is organized into the following phases:
 ## Tools and Software Used
 
 | Tool | Version | Purpose |
-|------|---------|---------|
-| | | |
-| | | |
-| | | |
+|------|---------|---------||
+| Autopsy | | Disk image analysis and investigation |
+| Sleuth Kit | | Command-line forensics toolkit |
+| FTK Imager | | Forensic imaging and verification |
+| Hex Editor | | Low-level file analysis |
 
 ---
 

@@ -4,7 +4,7 @@
 
 This phase synthesizes findings from all analysis modules to establish the complete narrative of the incident, correlate evidence across multiple sources, and prepare for final reporting.
 
-**Phase Lead:** [Team Member Name]  
+**Phase Lead:** Adham Ahmed (Lead Investigator)  
 **Start Date:** [Date]  
 **Completion Date:** [Date]
 
@@ -16,11 +16,13 @@ This phase synthesizes findings from all analysis modules to establish the compl
 
 | Finding | Timeline | File System | Registry | Email | Browser | USB | Network | Status |
 |---------|----------|-------------|----------|-------|---------|-----|---------|--------|
-| Spreadsheet accessed | ✓ | ✓ | ✓ | | | | | ☐ Validated |
-| File emailed | ✓ | | | ✓ | | | ✓ | ☐ Validated |
-| Web upload | ✓ | | ✓ | | ✓ | | ✓ | ☐ Validated |
-| USB transfer | ✓ | ✓ | ✓ | | | ✓ | | ☐ Validated |
-| Evidence deletion | ✓ | ✓ | ✓ | ✓ | ✓ | | | ☐ Validated |
+| m57plan.xlsx created by Jean | ✓ | ✓ | ✓ | | | | | ☐ Validated |
+| Phishing email from tuckgeorge@gmail.com | ✓ | | | ✓ | | | ✓ | ☐ Validated |
+| File attached to email response | ✓ | | | ✓ | | | ✓ | ☐ Validated |
+| File posted to competitor forum | ✓ | | ✓ | | ✓ | | ✓ | ☐ Validated |
+| Alison's email request | | | | ✓ | | | | ☐ Validated (expected: NOT FOUND) |
+| Bob's involvement | ✓ | ✓ | | ✓ | ✓ | | | ☐ Validated |
+| Evidence of cover-up | ✓ | ✓ | ✓ | ✓ | ✓ | | | ☐ Validated |
 
 ---
 
@@ -75,9 +77,17 @@ This phase synthesizes findings from all analysis modules to establish the compl
 
 ### Method Identified
 
-**Primary Exfiltration Method:** ☐ Email ☐ Web Upload ☐ USB ☐ Cloud Storage ☐ FTP ☐ Other: ___________
+**Primary Exfiltration Method:** ☑ Email (Phishing Attack) ☐ Direct Web Upload ☐ USB ☐ Cloud Storage ☐ FTP ☐ Other: ___________
 
-**Confidence Level:** ☐ High ☐ Medium ☐ Low
+**Secondary Method:** File subsequently posted to competitor's technical support forum
+
+**Confidence Level:** ☑ High ☐ Medium ☐ Low
+
+**Key Evidence:**
+- Phishing email from tuckgeorge@gmail.com (external Gmail account)
+- Jean responded with m57plan.xlsx as attachment
+- File MD5 matches: e23a4eb7f2562f53e88c9dca8b26a153
+- File later appeared on competitor's public forum
 
 ### Supporting Evidence
 

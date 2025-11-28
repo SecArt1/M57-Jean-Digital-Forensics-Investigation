@@ -14,11 +14,11 @@ This phase covers the initial setup of the investigation, including team organiz
 
 | Role | Team Member | Contact | Responsibilities |
 |------|-------------|---------|------------------|
-| Lead Investigator | [Name] | [Email] | Overall coordination, final report review |
-| Evidence Custodian | [Name] | [Email] | Chain of custody, evidence integrity |
-| Timeline Analyst | [Name] | [Email] | Event timeline construction, temporal analysis |
-| Artifact Analyst | [Name] | [Email] | File system, registry, and artifact examination |
-| Network/Communication Analyst | [Name] | [Email] | Email, browser, network artifact analysis |
+| Lead Investigator | Adham Ahmed | [Email] | Overall coordination, final report review, client liaison |
+| Evidence Custodian | Ahmed Hani | [Email] | Chain of custody, evidence integrity |
+| Timeline Analyst | Mohamed El-Awady | [Email] | Event timeline construction, temporal analysis |
+| Artifact Analyst | Abdullah Hegazi | [Email] | File system, registry, and artifact examination |
+| Network/Communication Analyst | Hannen Abu Bakr | [Email] | Email, browser, network artifact analysis |
 
 ### Team Meeting Schedule
 
@@ -51,16 +51,16 @@ This phase covers the initial setup of the investigation, including team organiz
 
 | Software | Version | Purpose | Installed By | Status |
 |----------|---------|---------|--------------|--------|
-| Autopsy | | Disk analysis | | ☐ |
-| The Sleuth Kit (TSK) | | Command-line forensics | | ☐ |
-| FTK Imager | | Image verification | | ☐ |
-| Volatility | | Memory analysis (if needed) | | ☐ |
-| RegRipper | | Registry analysis | | ☐ |
-| ExifTool | | Metadata extraction | | ☐ |
-| Wireshark | | Network analysis | | ☐ |
-| Bulk Extractor | | Feature extraction | | ☐ |
-| PhotoRec/TestDisk | | File carving | | ☐ |
-| [Other tools] | | | | ☐ |
+| Autopsy | | Disk analysis | Team | ☑ |
+| The Sleuth Kit (TSK) | | Command-line forensics | Team | ☑ |
+| FTK Imager | | Image verification | Team | ☑ |
+| Hex Editor | | Low-level file analysis | Team | ☑ |
+| Volatility | | Memory analysis (if needed) | Team | ☐ |
+| RegRipper | | Registry analysis | Team | ☐ |
+| ExifTool | | Metadata extraction | Team | ☐ |
+| Wireshark | | Network analysis | Team | ☐ |
+| Bulk Extractor | | Feature extraction | Team | ☐ |
+| PhotoRec/TestDisk | | File carving | Team | ☐ |
 
 ### Lab Configuration Notes
 

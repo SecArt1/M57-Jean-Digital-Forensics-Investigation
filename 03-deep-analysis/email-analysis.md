@@ -1,6 +1,6 @@
 # Email Analysis
 
-**Analyst:** [Team Member Name]  
+**Analyst:** Hannen Abu Bakr (Communication Analyst)  
 **Date:** [Date]  
 **Tools Used:** readpst, Outlook PST Viewer, MailXaminer, Autopsy
 
@@ -8,7 +8,12 @@
 
 ## Objective
 
-Analyze all email communications to identify evidence of the confidential spreadsheet being sent, received, or discussed, and to determine Jean's involvement or victimization.
+Analyze all email communications to:
+1. Identify evidence of m57plan.xlsx being sent, received, or discussed
+2. Locate phishing email from tuckgeorge@gmail.com (suspected attack vector)
+3. Verify Jean's claim that Alison requested the spreadsheet via email
+4. Identify any communication with competitors or suspicious external contacts
+5. Determine whether Jean was complicit or victimized by phishing
 
 ---
 
@@ -43,7 +48,7 @@ Analyze all email communications to identify evidence of the confidential spread
 **Command:**
 ```bash
 # Example using icat
-icat -o [offset] nps-2008-jean.E01 [inode] > extracted-emails.pst
+icat -o [offset] jeanm57.E01 [inode] > extracted-emails.pst
 ```
 
 **Extracted File Location:** [Path]  
@@ -94,10 +99,16 @@ readpst -D -M -e -o output_directory extracted-emails.pst
 
 | Keyword | Hits | Relevant Emails | Notes |
 |---------|------|-----------------|-------|
-| salary | | | |
-| employee | | | |
-| confidential | | | |
+| m57plan.xlsx | | | **CRITICAL - exfiltrated file** |
+| tuckgeorge@gmail.com | | | **CRITICAL - phishing sender** |
+| salary | | | Content of leaked file |
+| employee | | | Content of leaked file |
 | spreadsheet | | | |
+| Alison | | | Verify request claim |
+| confidential | | | |
+| funding round | | | Jean's stated reason |
+| social security | | | SSN in leaked file |
+| competitor | | | Look for external contacts |
 | [Competitor name] | | | **Critical** |
 | attachment | | | |
 | send | | | |

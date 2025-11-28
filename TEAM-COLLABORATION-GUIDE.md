@@ -11,16 +11,13 @@ This guide helps your team of 5 work effectively together on the M57-Jean digita
 ### Recommended Organization
 
 **Leadership:**
-- **Lead Investigator** - Overall project coordination, quality control, final sign-off
-- **Deputy Lead** - Backup coordinator, assists with complex decisions
+- **Adham Ahmed - Lead Investigator** - Overall project coordination, quality control, final sign-off, client liaison
 
 **Specialists:**
-- **Evidence Custodian** - Evidence handling, chain of custody, integrity verification
-- **Timeline Analyst** - Temporal analysis, event correlation, master timeline
-- **Artifact Analyst** - File system, registry, user activity artifacts
-- **Communication Analyst** - Email, browser, network communications
-
-**Note:** With 5 members, one person may hold dual roles (e.g., Lead + Timeline, or Deputy + Artifact)
+- **Ahmed Hani - Evidence Custodian** - Evidence handling, chain of custody, integrity verification
+- **Mohamed El-Awady - Timeline Analyst** - Temporal analysis, event correlation, master timeline
+- **Abdullah Hegazi - Artifact Analyst** - File system, registry, user activity artifacts
+- **Hannen Abu Bakr - Communication Analyst** - Email, browser, network communications
 
 ---
 

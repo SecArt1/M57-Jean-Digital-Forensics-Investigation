@@ -1,6 +1,6 @@
 # Web Browser Forensics Analysis
 
-**Analyst:** [Team Member Name]  
+**Analyst:** Hannen Abu Bakr (Communication Analyst)  
 **Date:** [Date]  
 **Tools Used:** Hindsight, BrowsingHistoryView, DB Browser for SQLite, Autopsy
 
@@ -8,7 +8,13 @@
 
 ## Objective
 
-Analyze web browser artifacts to identify evidence of the spreadsheet being uploaded to a competitor's website, communication with external parties, or other internet-based exfiltration methods.
+Analyze web browser artifacts to:
+1. Identify evidence of m57plan.xlsx being uploaded to competitor's public technical support forum
+2. Locate visits to competitor's website where the file was posted
+3. Identify any webmail usage (especially Gmail access to tuckgeorge@gmail.com)
+4. Find evidence of file upload sites or cloud storage access
+5. Determine if Jean accessed the competitor's forum herself
+6. Look for evidence of phishing URLs or suspicious websites
 
 ---
 
@@ -42,14 +48,14 @@ Analyze web browser artifacts to identify evidence of the spreadsheet being uplo
 **Chrome/Chromium:**
 ```bash
 # Extract from disk image
-icat -o [offset] nps-2008-jean.E01 [inode_History] > Chrome_History
-icat -o [offset] nps-2008-jean.E01 [inode_Cookies] > Chrome_Cookies
+icat -o [offset] jeanm57.E01 [inode_History] > Chrome_History
+icat -o [offset] jeanm57.E01 [inode_Cookies] > Chrome_Cookies
 ```
 
 **Firefox:**
 ```bash
 # Extract places.sqlite
-icat -o [offset] nps-2008-jean.E01 [inode_places.sqlite] > Firefox_places.sqlite
+icat -o [offset] jeanm57.E01 [inode_places.sqlite] > Firefox_places.sqlite
 ```
 
 **Extracted Files Location:** [Path]

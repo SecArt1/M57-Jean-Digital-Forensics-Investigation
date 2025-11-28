@@ -26,8 +26,8 @@ This phase documents the acquisition, verification, and preservation of digital 
 
 | Item # | Filename | File Type | Size (Bytes) | Status |
 |--------|----------|-----------|--------------|--------|
-| E-001 | nps-2008-jean.E01 | EnCase Image (Part 1) | | ☐ Received |
-| E-002 | nps-2008-jean.E02 | EnCase Image (Part 2) | | ☐ Received |
+| 001 | jeanm57.E01 | EnCase Image (Part 1) | | ☑ Received |
+| 002 | jeanm57.E02 | EnCase Image (Part 2) | | ☑ Received |
 
 ### Supporting Materials
 
@@ -54,9 +54,9 @@ This phase documents the acquisition, verification, and preservation of digital 
 
 **Verification Command:**
 ```bash
-md5sum nps-2008-jean.E01
-sha1sum nps-2008-jean.E01
-sha256sum nps-2008-jean.E01
+md5sum jeanm57.E01
+sha1sum jeanm57.E01
+sha256sum jeanm57.E01
 ```
 
 **Output:**
@@ -78,9 +78,9 @@ sha256sum nps-2008-jean.E01
 
 **Verification Command:**
 ```bash
-md5sum nps-2008-jean.E02
-sha1sum nps-2008-jean.E02
-sha256sum nps-2008-jean.E02
+md5sum jeanm57.E02
+sha1sum jeanm57.E02
+sha256sum jeanm57.E02
 ```
 
 **Output:**
